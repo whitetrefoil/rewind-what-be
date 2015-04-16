@@ -155,4 +155,4 @@ app.on_pre_POST_posts += check_author_in_posts
 if __name__ == '__main__':
     # TODO: Remove dev code
     app.debug = True
-    app.run()
+    app.run(port=9000)
