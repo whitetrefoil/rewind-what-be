@@ -1,0 +1,29 @@
+# IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# Common
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+~*
+
+# Project
+python/
+playground/
+*.pyc
