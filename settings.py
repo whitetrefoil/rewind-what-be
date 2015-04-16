@@ -12,6 +12,7 @@ MONGO_PORT = 27017
 MONGO_DBNAME = 'rewind-what'
 
 # Global API Settings.
+URL_PREFIX = 'services'
 ALLOWED_FILTERS = []
 RESOURCE_METHODS = ['GET']
 ITEM_METHODS = ['GET']

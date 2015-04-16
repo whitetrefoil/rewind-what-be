@@ -100,7 +100,7 @@ class TokenAuth(TokenAuth):
 app = Eve(auth=TokenAuth)
 
 
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/services/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'GET':
         return json.dumps({
